@@ -1,0 +1,88 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+.yarn/
+.npm/
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+.nuxt/
+.output/
+
+# Cache directories
+.cache/
+.parcel-cache/
+.rollup.cache/
+.temp/
+
+# Test coverage
+coverage/
+.nyc_output/
+junit.xml
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Editor directories
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+debug.log
+
+# Lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Large media files
+*.mp4
+*.tiff
+*.avi
+*.flv
+*.mov
+*.wmv
+
+# Generated files
+*.min.js
+*.min.css
+*.map
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+temp/
+
+# Documentation
+docs/
+*.md
+!README.md
+
+# Test files
+__tests__/
+*.test.*
+*.spec.*
+test/
+tests/
+
+# Configuration files that rarely change
+.prettierrc
+.eslintrc
+.stylelintrc
+.editorconfig
+.gitattributes
+tsconfig.*.json
